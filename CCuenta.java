@@ -1,6 +1,8 @@
 package cuentas;
 
-
+/**
+ * Clase que representa una cuenta bancaria.
+ */
 public class CCuenta {
 
     private String nombre;
@@ -8,7 +10,9 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
 
-    /*Constructor por defecto. */
+    /**
+     * Constructor por defecto.
+     */
     public CCuenta() {
     }
 
@@ -27,8 +31,10 @@ public class CCuenta {
         this.tipoInterés = tipo;
     }
 
-    /** Devuelve el saldo actual de la cuenta.
-     @return el saldo actual
+    /**
+     * Devuelve el saldo actual de la cuenta.
+     *
+     * @return el saldo actual
      */
     public double estado() {
         return saldo;
